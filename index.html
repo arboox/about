@@ -1,632 +1,1224 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
   <head>
     <meta charset="utf-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <title>About - ARBOOX™</title>
+    <meta name="title" content="About us - ARBOOX™" />
+    <meta
+      name="description"
+      content="ARBOOX™ is where augmented reality becomes the world's source of inspiration."
+    />
+    <meta
+      name="keywords"
+      content="ARBOOX™, ARBOOX, arboox, augmented reality, AR, mobile app, arboox app, arboox ar, arboox.com, arboox mobile app, augmented reality app, ar app, live the experiences, ar experiences, webar, WebAR, AR on the internet, WebXR, mixed reality, 3D objects, 3D, 3D art, boox, booxing, the boox, AR experiences, ar experiences, aufmented reality experiences, immersive experiences, immersive content, ar apps, AR apps, augmented reality apps, ar for everyone, AR For Everyone, ARBOOX augmented reality, arboox augmented reality, the arboox app, what is arboox, mixed reality experiences, entertainment apps, augmented reality and videos, ar content, augmented reality content, 3d content, 3d experiences, virtual, virtual world, virtual reality, vr, vr experiences, virtual reality experiences, experiences, experiences app, arboox experiences app, arboox experiences, arboox stories, arboox the app, ab, AB, about arboox, arboox about, about.arboox.com"
+    />
+    <meta name="robots" content="index,follow" />
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta name="language" content="English" />
+    <title>About us - ARBOOX™</title>
     <link
       rel="shortcut icon"
       href="https://cdn.glitch.com/a9c4e687-7c99-4065-88c1-02e69edfd394%2Fapp-icon.svg?v=1625246866247"
     />
     <link rel="stylesheet" href="style.css" />
-    <script src="script.js" defer></script>
-     <link
+    <link rel="stylesheet" href="https://arboox.com/style.css" />
+    <script src="/script.js" defer></script>
+    <link
       href="https://fonts.googleapis.com/css2?family=Material+Icons+Round"
       rel="stylesheet"
     />
-    <script defer data-domain="about.arboox.com" src="https://plausible.io/js/plausible.js"></script>
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://about.arboox.com/" />
+    <meta
+      property="og:title"
+      content="About us - ARBOOX™"
+    />
+    <meta
+      property="og:description"
+      content="ARBOOX™ is where augmented reality becomes the world's source of inspiration."
+    />
+    <meta
+      property="og:image"
+      content="https://cdn.glitch.global/a9c4e687-7c99-4065-88c1-02e69edfd394/arboox-og-image.png?v=1653355495529"
+    />
+
+    <!-- Twitter -->
+    <meta property="twitter:card" content="summary_large_image" />
+    <meta property="twitter:url" content="https://about.arboox.com/" />
+    <meta
+      property="twitter:title"
+      content="About us - ARBOOX™"
+    />
+    <meta
+      property="twitter:description"
+      content="ARBOOX™ is where augmented reality becomes the world's source of inspiration."
+    />
+    <meta
+      property="twitter:image"
+      content="https://cdn.glitch.global/a9c4e687-7c99-4065-88c1-02e69edfd394/arboox-og-image.png?v=1653355495529"
+    />
+    <script
+      defer
+      data-domain="arboox.com"
+      src="https://plausible.io/js/plausible.js"
+    ></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://api.fontshare.com/css?f[]=tanker@400&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Rounded:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
   </head>
   <style>
+    @font-face {
+  font-family: "Basier Circle";
+  src: url("https://cdn.glitch.com/99f47cc5-a3af-41bd-9426-43d887207b59%2FBasierCircle-Regular.woff2?v=1628276477678")
+      format("woff2"),
+    url("https://cdn.glitch.com/99f47cc5-a3af-41bd-9426-43d887207b59%2FBasierCircle-Regular.woff?v=1628276478719")
+      format("woff");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Basier Circle";
+  src: url("https://cdn.glitch.com/99f47cc5-a3af-41bd-9426-43d887207b59%2FBasierCircle-Medium.woff2?v=1628276475280")
+      format("woff2"),
+    url("https://cdn.glitch.com/99f47cc5-a3af-41bd-9426-43d887207b59%2FBasierCircle-Medium.woff?v=1628276476551")
+      format("woff");
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Basier Circle";
+  src: url("https://cdn.glitch.com/99f47cc5-a3af-41bd-9426-43d887207b59%2FBasierCircle-SemiBold.woff2?v=1628276647759")
+      format("woff2"),
+    url("https://cdn.glitch.com/99f47cc5-a3af-41bd-9426-43d887207b59%2FBasierCircle-SemiBold.woff?v=1628276474252")
+      format("woff");
+  font-weight: 600;
+  font-style: normal;
+  font-display: swap;
+}
+    
     html {
-      scroll-behavior: smooth;
+      margin: 0;
+      padding: 0;
+      min-height: 100%;
     }
 
     body {
       margin: 0px;
-      background-color: #FFFFFF;
+      background: #FFFFFF;
+      height: 100%;
+      overflow-x: hidden;
     }
 
-    .topbar {
-      background-color: #FFFFFF;
+    .topbar-2 {
       width: 100%;
-      height: 50px;
-      z-index: 1000;
-      position: sticky;
-      position: -webkit-sticky;
-      top: 0;
+      height: 60px;
+      z-index: 100;
     }
 
-    @supports (-webkit-backdrop-filter: none) or (backdrop-filter: none) {
-      .topbar {
-        -webkit-backdrop-filter: blur(10px);
-        backdrop-filter: blur(10px);
-        background-color: #FFFFFF95;
-      }
-    }
-
-    .arboox__logo {
-      width: 100px;
-      margin-top: 12px;
-      position: relative;
-      pointer-events: none;
-      margin-left: 20px;
-    }
-
-    .topbar_button {
-      background-color: #000000;
-      border-radius: 22px;
-      border: none;
-      height: 26px;
-      margin-bottom: 2px;
-    }
-
-    .copyright {
-      font-family: "Neurial Grotesk", system-ui;
+    .header-h1 {
+      font-family: "Tanker", system-ui;
+      font-size: 140px;
       font-weight: 600;
-      color: #ABABAB;
-    }
-
-    .footer {
-      width: 340px;
-      max-width: 100%;
-      text-align: left;
       position: relative;
-    }
-
-    video {
-      width: 100%;
-      height: 500px;
-      object-fit: cover;
-      position: relative;
-      top: -210px;
-    }
-
-    .signup-launchlink {
-      width: 254px;
-      height: 42px;
-      border-radius: 22px;
-      border: none;
-      background-color: #222222;
-      position: relative;
-      font-family: "Neurial Grotesk", system-ui;
-      color: #FFFFFF;
-      font-weight: 500;
+      text-align: center;
       text-transform: uppercase;
-      letter-spacing: 1.6px;
+      line-height: 120px;
+      background:-webkit-linear-gradient(#00b3ff,#0094ff);
+      -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+    }
+    
+    .header-h1-2 {
+      font-family: "Nationale", system-ui;
+      font-size: 80px;
+      font-weight: 600;
+      position: relative;
+      text-align: center;
+      line-height: 120px;
+    }
+
+    .p-p {
+      font-family: "Nationale", system-ui;
+      font-size: 20px;
+      font-weight: 500;
+      color: #000000;
+      margin-top: -70px;
+      width: 80%;
+      max-width: 500px;
+    }
+
+    .button-light-bg-lg {
+      width: 200px;
+      height: 50px;
+      border-radius: 10px;
+      border: none;
+      position: relative;
+      left: 30px;
+      font-family: "Nationale", system-ui;
+      font-size: 18px;
+      background-color: #b5ddff;
+      color: #26282d;
+      font-weight: 600;
       cursor: pointer;
       transition: linear 200ms;
-      filter: drop-shadow(0px 0px 10px rgba(0, 0, 0, 0.2));
       z-index: 8;
+      float: left;
+      display: inline-block;
     }
 
-    .signup-launchlink:hover {
-      transform: scale(1.1);
-      filter: drop-shadow(0px 20px 30px rgba(0, 0, 0, 0.25));
-      box-shadow: inset 0 0 80px #0094FF, inset 20px 0 80px #FFFFFF,
-        inset -20px 0 80px #F0F0F0, inset 20px 0 300px #0094FF,
-        inset -20px 0 300px #F0F0F0, 0 0 50px #FFFFFF, -10px 0 80px #FFFFFF,
-        10px 0 20px #22222210;
+    .button-light-bg-lg:hover {
+      background-color: #b5ddff95;
+      border: solid 1px #b5ddff;
+      color: #b5ddff;
     }
     
-    .main-cta {
-      width: 200px;
-      height: 40px;
-      border: none;
-      border-radius: 20px;
-      background-color: #FFFFFF;
-      cursor: pointer;
-      transition: linear 100ms;
-      z-index: 200;
-      color: #0C0F14;
-      font-family: 'Neurial Grotesk', system-ui;
-      font-weight: 500;
-    }
-    
-    .main-cta:hover {
-      background-color: transparent;
-      border: solid 1.6px #FFFFFF;
+   b {
+      font-family: 'Nationale', system-ui;
+      font-weight: 600;
       color: #FFFFFF;
-    }
-    
-    .ab-card {
-      width: 280px;
-      height: 364px;
-      background-color: #FFFFFF;
-      display: inline-block;
+      text-transform: uppercase;
+      display: inline;
+      float: left;
       cursor: pointer;
-      transition: linear 120ms;
-       margin-top: 20px;
+      margin-left: 50px;
+      margin-top: 0px;
+      transition: linear 100ms;
+     width: 180px;
     }
     
-    .ab-card:hover {
-       filter: drop-shadow(0px 20px 30px rgba(0, 0, 0, 0.06));
+    b:hover {
+     color: #FFFFFF80;
+    }
+
+    .hero-text-content,
+    .hero-img-wrap {
+      display: inline-block;
+    }
+
+    .hero-img-wrap {
+      width: 360px;
+      float: right;
+      position: relative;
+      right: 30px;
+    }
+    
+    .footer {
+      background-color: #f8f9fa;
+    }
+
+    .footer-separator {
+      background-color: #e9ecef;
+    }
+
+    .explore-wrap {
+      width: 86%;
+      height: 86%;
+      background: url("https://cdn.glitch.global/a9c4e687-7c99-4065-88c1-02e69edfd394/Amin.jpg?v=1641430692424");
+      border-radius: 18px;
+      position: fixed;
+      left: 50%;
+      top: 50%;
+      transform: translate(-50%, -50%);
+      z-index: 10000;
+      overflow: hidden;
+      transition: linear 120ms;
+      display: none;
+    }
+
+    .explore-img {
+      display: inline-block;
+      float: right;
+      margin-right: 40px;
+      width: 300px;
+      position: relative;
+      top: 10px;
+      transition: linear 120ms;
+    }
+    
+     .view {
+      width: 100%;
+      height: 100%;
+      position: fixed;
+      position: -webkit-fixed;
+      top: 0;
+      background-color: #FFFFFF;
+      overflow-x: hidden;
+      overflow-y: auto;
+       z-index: 10000;
+      display: none;
+    }
+    
+    .view-head {
+      width: 100%; 
+      height: 80px; 
+      position: sticky; 
+      position: -webkit-sticky; 
+      top: 0; 
+      background-color: #FFFFFF; 
+      filter: drop-shadow(0px 0px 12px rgba(0, 0, 0, 0.08)); 
+      z-index: 100000;
+    }
+    
+    .view-h1 {
+      font-family: 'Nationale', system-ui;
+      font-weight: 500;
+      text-align: center;
+      font-size: 70px;
+    }
+    
+    .view-inline-text {
+      width: 50%;
+      height: auto;
+      position: relative; 
+      float: left;
+      text-align: left;
+      margin-top: 140px;
+    }
+    
+    .view-inline-img {
+      width: 50%;
+      max-width: 300px;
+      height: auto;
+      position: relative;
+      float: right;
+    }
+    
+     .card-inline {
+      width: 300px;
+      height: 486px;
+      background-color: #F8F9FA;
+      border-radius: 16px;
+      display: inline-block;
+      overflow: hidden;
+       transition: linear 160ms;
+       cursor: pointer;
+    }
+    
+    .card-inline:hover {
+      transform: scale(0.99);
+    }
+    
+    .inline-item {
+      display: inline-block;
+    }
+    
+    .vertical-separator {
+      width: 1.3px;
+      height: 40px;
+      background-color: #F0F0F0;
+      display: inline-block;
+      margin-left: 20px;
+      margin-right: 20px; 
+      position: relative;
+      top: -16px;
     }
     
     .press-card {
+      width: 80%;
+      max-width: 900px;
+      height: 280px;
+      background-color: #FFFFFF;
+      border-radius: 10px;
+      box-shadow: 0px 12px 40px rgba(0, 0, 0, 0.08);
+      overflow: hidden;
+    } 
+    
+    .press-card-img {
+      height: 100%;
+      width: auto;
+      float: left;
       display: inline-block;
     }
     
-    @media screen and (max-width: 480px) {
-       .ab-card {
+    .press-card-text {
+      display: inline-block;
+      float: left;
+      margin-left: 44px;
+      margin-top: 54px;
+      width: 400px;
+    }
+    
+    .press-card-small {
+      width: 300px;
+      height: 120px;
+      background-color: #F8F9FA;
+      border-radius: 8px;
+    }
+    
+    .press-small {
+      width: 300px;
+    }
+    
+    @media screen and (max-width: 550px) {
+      .header-h1 {
+        text-align: center;
+        margin-right: auto;
+        margin-left: auto;
+        left: 0;
+        font-size: 72px;
+        line-height: 80px;
+      }
+
+      .header-h1-2 {
+        text-align: center;
+        margin-right: auto;
+        margin-left: auto;
+        left: 0;
+        font-size: 52px;
+        line-height: 80px;
+      }
+      
+      .p-p {
+        text-align: center;
+        margin-right: auto;
+        margin-left: auto;
+        left: 0;
+        margin-top: -40px;
+        width: 80%;
+        max-width: 400px;
+      }
+
+      .button-light-bg-lg {
+        margin: 0;
+        right: 0;
+        left: 0;
+        margin-right: auto;
+        margin-left: auto;
+        float: none;
+      }
+      
+      b {
         display: block;
+        margin: 0;
+        left: 0;
+        right: 0;
+        margin-left: auto;
+        margin-right: auto;
+        float: none;
+        position: relative;
+        margin-top: 40px;
+        top: 0;
+      }
+
+      .hero-text-content {
+        display: block;
+      }
+
+      .hero-img-wrap {
+        width: 320px;
+        display: block;
+        margin: 0;
+        right: 0;
+        left: 0;
+        margin-right: auto;
+        margin-left: auto;
+        float: none;
+        margin-top: 28px;
+      }
+
+      .footer-column {
+        display: block;
+        float: left;
+      }
+
+      .footer-column-2 {
+        display: block;
+        margin-top: 32px;
+        position: relative;
+        left: -36px;
+        float: left;
+      }
+      
+      .view-h1 {
+        font-size: 40px;
+      }
+      
+      .view-inline-text {
+        display: block;
+        float: none; 
+        width: 100%;
+        margin-top: 10px;
+      }
+      
+      .view-inline-img {
+        display: block;
+        float: none;
+        width: 80%;
+        margin: 0;
+        left: 0;
+        right: 0;
+        margin-left: auto;
+        margin-right: auto;
+      } 
+      
+      .card-inline {
+        width: 80%;
+        height: 486px;
+        display: block;
+      }
+      
+      .inline-item {
+        display: block;
+      }
+      
+      .vertical-separator {
+        display: none;
       }
       
       .press-card {
+        width: 80%;
+        height: 460px;
+      }
+      
+      .press-card-img {
+        width: 100%;
+        height: 280px;
+        object-fit: cover;
+        float: none;
         display: block;
       }
       
-      .s2 {
-        margin-top: 100px;
+      .press-card-text {
+        float: none;
+        width: 90%;
+        display: block;
+        margin-top: -14px;
+        margin-left: 0;
       }
       
-      .s4 {
-        margin-top: 50px;
+      .press-card-small {
+        width: 100%;
+      }
+      
+      .press-small {
+        width: 80%;
+      }
+      
+      .p-s-2 {
+        margin-top: 40px;
       }
     }
 
-    .animate-third {
-      -webkit-animation-delay: 600ms;
-      -moz-animation-delay: 600ms;
-      -o-animation-delay: 600ms;
-      animation-delay: 600ms;
+    .copyright {
+      font-family: "Nationale", system-ui;
+      position: relative;
+      text-align: center;
+      font-weight: 400;
+      color: #ababab;
+      float: left;
+      text-align: left;
     }
 
-    .animate-fourth {
-      -webkit-animation-delay: 700ms;
-      -moz-animation-delay: 700ms;
-      -o-animation-delay: 700ms;
-      animation-delay: 700ms;
+    .footer-column {
+      display: inline-block;
+      float: left;
     }
 
-    .animate-fifth {
-      -webkit-animation-delay: 800ms;
-      -moz-animation-delay: 800ms;
-      -o-animation-delay: 800ms;
-      animation-delay: 800ms;
+    .footer-column-2 {
+      margin-left: 40px;
     }
-    
-    .menu {
+
+    video {
+      border-radius: 16px;
+    }
+
+    .button-light-bg {
+      height: 36px;
+      border-radius: 10px;
+      border: none;
+      position: relative;
+      font-family: "Nationale", system-ui;
+      background-color: #ffffff;
+      color: #26282d;
+      font-weight: 600;
       cursor: pointer;
-      transition: linear 160ms;
-      pointer-events: all;
+      transition: linear 200ms;
+      z-index: 8;
     }
 
-    .menu:hover {
-      filter: drop-shadow(0px 10px 10px rgba(0, 0, 0, 0.25));
-      transform: scale(1.08);
+    .button-light-bg:hover {
+      background-color: #ffffff50;
+      border: solid 1px #ffffff;
+      color: #ffffff;
     }
 
-    .sheet {
-      width: 100%;
-      max-width: 450px;
-      height: 90vh;
-       -webkit-backdrop-filter: blur(30px);
-        backdrop-filter: blur(30px);
-        background-color: #FFFFFF95;
-      position: fixed;
-      position: -webkit-fixed;
-      bottom: 0;
-      filter: drop-shadow(0px 0px 40px rgba(0, 0, 0, 0.2));
-      z-index: 1000;
-      display: none;
-      right: 0;
-      overflow-x: hidden;
-      overflow-y: scroll;
+    .appstoretag {
+      transition: linear 120ms;
+      height: 36px;
+      cursor: pointer;
+    }
+
+    .appstoretag:hover {
+      filter: drop-shadow(0px 10px 20px rgba(0, 0, 0, 0.15));
     }
 
     .h1-hover-effect {
-      color: #000000;
+      color: #ababab;
       transition: linear 100ms;
+      text-decoration: none;
+      font-family: "Nationale", system-ui;
     }
 
     .h1-hover-effect:hover {
-      color: #CCCCCC;
+      text-decoration: underline;
     }
-    
-    svg {
-      transition: linear 100ms;
-    }
-    
-    svg:hover {
-      fill: #CCCCCC;
-    }
-    
-    .btn-square {
-      width: 280px;
+  </style>
+  <style>
+    .button-dark-bg {
       height: 36px;
-      background-color: #FFFFFF;
-      border: solid 0.6px #F0F0F0;
-      border-radius: 4px;
-      font-family: 'Neurial Grotesk', system-ui;
+      border-radius: 10px;
+      border: none;
+      position: relative;
+      font-family: "Nationale", system-ui;
+      background-color: #000000;
+      color: #ffffff;
       font-weight: 500;
-      color: #000000D9;
       cursor: pointer;
-      transition: linear 100ms;
+      transition: linear 200ms;
+      z-index: 8;
+    }
+
+    .button-dark-bg:hover {
+      background-color: transparent;
+      border: solid 1px #000000;
+      color: #000000;
     }
     
-    .btn-square:hover {
-      filter: drop-shadow(0px 10px 10px rgba(0, 0, 0, 0.08));
+    .s-a-b {
+      width: 100%;
+      height: 70px;
+      background-color: #F6F6F6;
+      border-bottom: solid 1px #CCCCCC;
+      backdrop-filter: blur(10px);
+    }
+    
+    .s-a-b-ll {
+      width: 90px;
+      height: 38px;
+      border-radius: 10px;
+      border: none;
+      position: relative;
+      font-family: "Nationale", system-ui;
+      background-color: #0094FF;
+      color: #ffffff;
+      font-weight: 600;
+      cursor: pointer;
+      transition: linear 200ms;
+      z-index: 8;
+      right: 14px;
+      position: fixed;
+      top: 16px;
+    }
+    
+    .s-a-b-ll:active {
+      background-color: transparent;
+      border: solid 2px #0094FF;
+      color: #0094FF;
+    }
+    
+    .floating { 
+    animation-name: floating;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+}
+ 
+@keyframes floating {
+    0% { transform: translate(0,  0px); }
+    50%  { transform: translate(0, 15px); }
+    100%   { transform: translate(0, -0px); }   
+}
+    
+    @media (prefers-color-scheme: dark) {
+      body {
+        background-color: #090C10;
+        color: #F8F8F8;
+      }
+      
+      .p-p {
+        color: #F8F8F8;
+      }
+      
+      .footer {
+        background-color: #0A0A0A;
+      }
+      
+      .footer-separator {
+        background-color: #444444;
+      }
+      
+      .vertical-separator {
+        background-color: #444444;
+      }
+      
+      .button-dark-bg {
+        background-color: #0094FF;
+        color: #0C0F14;
+      }
+      
+      .button-dark-bg:hover {
+        background-color: transparent;
+        border: solid 1px #0094FF;
+        color: #0094FF;
+      }
+      
+      .logo {
+        filter: invert(100%);
+      }
+      
+      .press-card {
+        background-color: #0C0F14;
+        box-shadow: 0px 12px 40px rgba(0, 0, 0, 0.2);
+      }
+      
+      .press-card-small {
+        background-color: #0C0F14;
+      }
     }
   </style>
   <body>
-    <div class="topbar">
+    <div class="topbar-2">
       <img
         src="https://cdn.glitch.com/a9c4e687-7c99-4065-88c1-02e69edfd394%2FText%20Logo%20Black.svg?v=1618838333051"
-        style="float: left; width: 118px; margin-top: 10px; margin-left: 30px; border-radius: 6px;"
+        style="
+          float: left;
+          width: 118px;
+          margin-top: 14px;
+          margin-left: 30px;
+          border-radius: 6px;
+          user-select: none;
+        "
+        class="logo"
       />
       &ensp;
       <button
-        class="signup-launchlink"
-        style="width: 90px; height: 28px; float: right; margin-top: 10px; margin-right: 60px;"
+        class="button-dark-bg"
+        style="width: 100px; float: right; margin-top: 12px; margin-right: 30px"
         onclick="window.location.href='https://arboox.com/setup';"
+        id="index-signup-btn"
       >
         Sign up
       </button>
-      &ensp;
-      <img
-        class="menu"
-        onclick="menuShow()"
-        src="https://cdn.glitch.com/a9c4e687-7c99-4065-88c1-02e69edfd394%2Fmenu.svg?v=1627665748876"
-        style="float: right; margin-top: 12px; margin-right: 40px; position: relative; left: 170px;"
-      />
     </div>
+    <br />
+    <br />
     <center>
-      <br />
-      <h1
-        class="animate-reveal animate-first"
-        style="font-family: 'Neurial Grotesk', system-ui; width: 340px; z-index: 100; text-align: left; float: left; margin-left: 36px; position: relative; top: 120px; font-weight: 500; color: #FFFFFF;"
-      >
-        Where AR becomes the world's source of inspiration.
+      <h1 class="header-h1 animate-reveal animate-first">
+        AR For <br> Everyone
       </h1>
       <br />
-      <button class="main-cta animate-reveal animate-third" style="float: left; margin-left: 36px; position: relative; top: 130px; clear: both;">
-        <a href="#main" style="color: inherit; text-decoration: none;"
-          >Learn more about us</a
-        >
-      </button>
-      <br />
-      <br />
-      <br />
-      <br />
-      <video class="animate-reveal animate-fourth" style="z-index: -1;" autoplay loop>
-        <source
-          src="https://cdn.glitch.me/a9c4e687-7c99-4065-88c1-02e69edfd394%2Fpexels-sunshine-design-6347152.mp4?v=1636033083303"
-          type="video/mp4"
-        />
-      </video>
-      <br />
-      <p
-        class="animate-reveal animate-fifth"
-        style="font-family: 'Neurial Grotesk', system-ui; font-size: 22px; margin-top: -140px;  width: 80%; max-width: 440px; text-align: center;"
-         id="main"
-      >
-        We build products that help people explore their surroundings, find communities and grow their businesses.
+      <p class="p-p animate-reveal animate-second">
+        ARBOOX™ is where augmented reality becomes the world's source of inspiration.
       </p>
-      <br />
       <br>
-      <div style="width: 100%; height: auto; margin-top: 80px; clear: both; margin-bottom: 160px;">
-        <p style="font-family: 'Neurial Grotesk', system-ui; font-weight: 500; text-transform: uppercase; color: #CCCCCC;">
-          Our products
-        </p>
+      <p class="floating" style="font-family: 'Nationale', system-ui; color: #CCCCCC; text-transform: uppercase; font-size: 14px; font-weight: 600;">
+        <i class="material-symbols-rounded" style="position: relative; top: 6px;">swipe_up</i>
         <br>
         <br>
-        <div class="ab-card" style="background: url('https://cdn.glitch.me/a9c4e687-7c99-4065-88c1-02e69edfd394%2Farboox-mobile.png?v=1636043536249'); background-repeat: no-repeat; background-size: 100%;" onclick="window.location.href='https://arboox.com/';">
-        <p style="font-family: 'Neurial Grotesk', system-ui; text-transform: uppercase; tex-align: left; float: left;position: relative; top: 300px; font-weight: 500; font-size: 14px;">
-          ARBOOX Mobile
-        </p>
-        <br>
-        <div style="clear: both;"></div>
-        <h2 style="font-family: 'Neurial Grotesk', system-ui; text-align: left; float: left; position: relative; top: 280px; font-weight: 500;">
-          Live the experiences.
-        </h2>
-      </div>
-        &emsp;
-        &emsp;
-      <div class="ab-card s2" style="background: url('https://cdn.glitch.me/a9c4e687-7c99-4065-88c1-02e69edfd394%2Farboox-studio.png?v=1636043660761'); background-repeat: no-repeat; background-size: 100%;" onclick="window.location.href='https://arboox.com/studio';">
-                <p style="font-family: 'Neurial Grotesk', system-ui; text-transform: uppercase; tex-align: left; float: left;position: relative; top: 300px; font-weight: 500; font-size: 14px;">
-          ARBOOX Studio
-        </p>
-        <br>
-        <div style="clear: both;"></div>
-        <h2 style="font-family: 'Neurial Grotesk', system-ui; text-align: left; float: left; position: relative; top: 280px; font-weight: 500;">
-          By pros for pros.
-        </h2>
-      </div>
-        &emsp;
-        &emsp;
-      <div class="ab-card s2" style="background: url('https://cdn.glitch.me/a9c4e687-7c99-4065-88c1-02e69edfd394%2Farboox-brands.png?v=1636043864804'); background-repeat: no-repeat; background-size: 100%;" onclick="window.location.href='https://arboox.com/brands/faq';">
-                <p style="font-family: 'Neurial Grotesk', system-ui; text-transform: uppercase; tex-align: left; float: left;position: relative; top: 300px; font-weight: 500; font-size: 14px;">
-          ARBOOX For Brands
-        </p>
-        <br>
-        <div style="clear: both;"></div>
-        <h2 style="font-family: 'Neurial Grotesk', system-ui; text-align: left; float: left; position: relative; top: 280px; font-weight: 500;">
-          Bring your brand to more people.
-        </h2>
-      </div>
-      </div>
+        Swipe to continue
+      </p>
       <br>
       <br>
-      <div style="clear: both;">
+      <br>
+      <br>
+          <br>
+      <br>
+      <br>
+      <h4 style="font-family: 'Nationale', system-ui; font-weight: 600; text-transform: uppercase; color: #CCCCCC;">
+        The ARBOOX™ app in numbers
+      </h4>
+      <br>
+      <div class="inline-item">
+        <p style="font-family: 'Basier Circle', system-ui; font-size: 36px;">
+          40+
+        </p>
+        <br>
+        <p style="font-family: 'Basier Circle', system-ui; font-size: 16px; color: #CCCCCC; margin-top: -40px;">
+          Experiences
+        </p>
+      </div>
+      &emsp;
+      <div class="vertical-separator">
         
       </div>
-      <p
-        class="animate-reveal animate-fifth"
-        style="font-family: 'Neurial Grotesk', system-ui; font-size: 32px; margin-top: 80px; width: 80%; max-width: 440px; text-align: left;"
-      >
-        We put people at the center of everything we do
-      </p>
-      <br />
-      <p
-        class="animate-reveal animate-fifth"
-        style="font-family: 'Neurial Grotesk', system-ui; font-size: 20px; width: 80%; max-width: 440px; margin-top:-16px; text-align: left; color: #CCCCCC"
-      >
-        ARBOOX™ is an augmented reality app made for everyone. This means that
-        accessibility is present at all times, from the design to the
-        development and the production. We always think about our users' needs
-        to shape the look and feel of the app.
-      </p>
-      <br />
-      <img
-        src="https://cdn.shopify.com/s/files/1/0312/2737/9849/files/asset-home-carousel-img-4-v2.png"
-        style="width: 320px;"
-      />
-      <br />
-      <p
-        class="animate-reveal animate-fifth"
-        style="font-family: 'Neurial Grotesk', system-ui; font-size: 32px; margin-top: 140px; width: 80%; max-width: 440px; text-align: left;"
-      >
-        Around the globe we go
-      </p>
-      <br />
-      <p
-        class="animate-reveal animate-fifth"
-        style="font-family: 'Neurial Grotesk', system-ui; font-size: 20px; width: 80%; max-width: 440px; margin-top:-16px; text-align: left; color: #CCCCCC"
-      >
-        At ARBOOX™, we're open to meeting new people, new cultures and living
-        the experiences. That's why, we've set the goal to open physical stores
-        and galleries by 2025 worldwide. Our first store will be located at the
-        heart of Nuevo Polanco, Mexico City.
-      </p>
-      <br />
-      <img
-        src="https://cdn.filepicker.io/api/file/eIqV9vepSAawK5fRfahW/convert?fit=max&h=&quality=95&w=612&compress=true&fit=max"
-        style="width: 320px;"
-      />
-      <br />
-      <br />
-      <p
-        class="animate-reveal animate-fifth"
-        style="font-family: 'Neurial Grotesk', system-ui; font-size: 32px; margin-top: 140px; width: 80%; max-width: 440px; text-align: left;"
-      >
-        Our future plans
-      </p>
-      <br />
-      <p
-        class="animate-reveal animate-fifth"
-        style="font-family: 'Neurial Grotesk', system-ui; font-size: 20px; width: 80%; max-width: 440px; margin-top:-16px; text-align: left; color: #CCCCCC"
-      >
-        Even though we're just getting started, we already have future plans for
-        ARBOOX™. We announce them each year at the ABWC (ARBOOX World Conference)
-      </p>
-      <br />
-      <p
-        class="animate-reveal animate-fifth"
-        style="font-family: 'Neurial Grotesk', system-ui; width: 80%; max-width: 440px; text-align: left; color: #CCCCCC"
-      >
-        January 18th, 2021 is ARBOOX™'s launch date, that's why we make our
-        global conferences as close as we can to that date every year.
-      </p>
-      <br />
-      <div id="press-assets">
-        <p
-          class="animate-reveal animate-fifth"
-          style="font-family: 'Neurial Grotesk', system-ui; font-size: 32px; margin-top: 140px; width: 80%; max-width: 440px; text-align: left;"
-        >
-          Download our press kit and brand assets
+      &emsp;
+      <div class="inline-item">
+        <p style="font-family: 'Basier Circle', system-ui; font-size: 36px;">
+          5
         </p>
-        <br />
-        <p
-          class="animate-reveal animate-fifth"
-          style="font-family: 'Neurial Grotesk', system-ui; font-size: 20px; width: 80%; max-width: 440px; margin-top:-16px; text-align: left; color: #CCCCCC"
-        >
-          Download official ARBOOX™ logos, badges and product screenshots, as
-          well as our design guidelines.
+        <br>
+        <p style="font-family: 'Basier Circle', system-ui; font-size: 16px; color: #CCCCCC; margin-top: -40px;">
+          Languages
         </p>
-        <br />
-        <br />
+      </div>
+      &emsp;
+      <div class="vertical-separator">
+        
+      </div>
+      &emsp;
+      <div class="inline-item">
+        <p style="font-family: 'Basier Circle', system-ui; font-size: 36px;">
+          10+
+        </p>
         <br>
+        <p style="font-family: 'Basier Circle', system-ui; font-size: 16px; color: #CCCCCC; margin-top: -40px;">
+          Publishers
+        </p>
+      </div>
+      &emsp;
+      <div class="vertical-separator">
+        
+      </div>
+      &emsp;
+      <div class="inline-item">
+        <p style="font-family: 'Basier Circle', system-ui; font-size: 36px;">
+          176
+        </p>
         <br>
-        <div
-          style="width: 320px; height: 418px; background-color: #FFFFFF; filter: drop-shadow(0px 0px 50px rgba(0, 0, 0, 0.09));" class="press-card"
-        >
-          <img
-            src="https://cdn.glitch.me/a9c4e687-7c99-4065-88c1-02e69edfd394%2Flogo-kit-artboard.png?v=1636052909855"
-            style="width: 100%;"
-          />
-          <br />
-          <h2
-            style="font-family: 'Neurial Grotesk', system-ui; text-align: left; positon: relative; margin-left: 20px; font-weight: 500;"
-          >
-            Logo and <br />
-            Guidelines
-          </h2>
-          <br />
-          <p
-            style="font-family: 'Neurial Grotesk', system-ui; color: #CCCCCC; position: relative; text-align: left; margin-left: 20px; margin-top: -26px; margin-right: 20px;"
-          >
-            ZIP, 2.0 MB
+        <p style="font-family: 'Basier Circle', system-ui; font-size: 16px; color: #CCCCCC; margin-top: -40px;">
+          Countries
+        </p>
+      </div>
+      <br>
+      <br>
+      <br>
+       <div
+              style="width: 80%; max-width: 400px; height: 1.3px; position: relative; top: 30px; background-color: #F0F0F0;"
+            ></div>
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+      <div style="width: 100%; height: auto;">
+        <div class="card-inline" style="background: url('https://cdn.glitch.global/a9c4e687-7c99-4065-88c1-02e69edfd394/arbooxmobile-min.png?v=1653871595100'); background-size: cover; background-position: center;">
+          <div style="width: 100%; height: 60%; background: rgb(0,11,20); background: linear-gradient(180deg, rgba(0,11,20,0) 0%, rgba(0,11,20,1) 100%); position: relative; bottom: -50%;">
+          <p style="font-family: 'Nationale', system-ui; color: #FFFFFF; font-weight: 600; text-align: left; text-transform: uppercase; float: left; margin-left: 18px; position: relative; top: 60px;">
+            ARBOOX Mobile
           </p>
-          <br />
-          <button
-            onclick="window.location.href='https://raw.githubusercontent.com/arboox/about/main/arboox-logo-kit.zip';"
-            class="btn-square"
-          >
-            Download
-          </button>
+            <br>
+            <p style="font-family: 'Nationale', system-ui; color: #FFFFFF; text-align: left; float: left; margin-left: 18px; position: relative; top: 40px; width: 90%;">
+            The world's best mobile app for viewing, creating and interacting with augmented reality content and stories.
+          </p>
+            <br>
+            <p style="font-family: 'Nationale', system-ui; color: #FFFFFF; text-align: left; float: left; margin-left: 18px; position: relative; top: 20px; width: 90%;">
+            View&ensp;<i class="material-symbols-rounded" style="position: relative; top: 7px; left: -4px;">chevron_right</i>
+          </p>
         </div>
-        &emsp;
-        &emsp;
-        <div
-          style="width: 320px; height: 418px; background-color: #FFFFFF; filter: drop-shadow(0px 0px 50px rgba(0, 0, 0, 0.09));" class="press-card s4"
-        >
-          <img
-            src="https://cdn.glitch.me/a9c4e687-7c99-4065-88c1-02e69edfd394%2Farboox-mockups-artboard.png?v=1636057954935"
-            style="width: 100%;"
-          />
-          <br />
-          <h2
-            style="font-family: 'Neurial Grotesk', system-ui; text-align: left; positon: relative; margin-left: 20px; font-weight: 500;"
-          >
-            Screenshots & <br> Mockups
-          </h2>
-          <br />
-          <p
-            style="font-family: 'Neurial Grotesk', system-ui; color: #CCCCCC; position: relative; text-align: left; margin-left: 20px; margin-top: -26px; margin-right: 20px;"
-          >
-            ZIP, 43.8 MB
+        </div>
+        &ensp;
+        <div class="card-inline" style="background: url('https://cdn.glitch.global/a9c4e687-7c99-4065-88c1-02e69edfd394/arbooxcreate-min.png?v=1653873602551'); background-size: cover; background-position: center;">
+          <div style="width: 100%; height: 60%; background: rgb(0,11,20); background: linear-gradient(180deg, rgba(0,11,20,0) 0%, rgba(0,11,20,1) 100%); position: relative; bottom: -50%;">
+          <p style="font-family: 'Nationale', system-ui; color: #FFFFFF; font-weight: 600; text-align: left; text-transform: uppercase; float: left; margin-left: 18px; position: relative; top: 60px;">
+            ARBOOX Create
           </p>
-          <br />
-          <button
-            onclick="window.location.href='https://cdn.glitch.me/a9c4e687-7c99-4065-88c1-02e69edfd394%2Farboox-mockups.zip?v=1636057675214';"
-            class="btn-square"
-          >
-            Download
-          </button>
+            <br>
+            <p style="font-family: 'Nationale', system-ui; color: #FFFFFF; text-align: left; float: left; margin-left: 18px; position: relative; top: 40px; width: 90%;">
+            Instantly create augmented reality experiences and share them with the world using our advanced mobile editor.
+          </p>
+            <br>
+            <p style="font-family: 'Nationale', system-ui; color: #FFFFFF; text-align: left; float: left; margin-left: 18px; position: relative; top: 20px; width: 90%;">
+            View&ensp;<i class="material-symbols-rounded" style="position: relative; top: 7px; left: -4px;">chevron_right</i>
+          </p>
+        </div>
+        </div>
+        &ensp;
+        <div class="card-inline" style="background: url('https://cdn.glitch.global/a9c4e687-7c99-4065-88c1-02e69edfd394/arbooxads-min.png?v=1653874392742'); background-size: cover; background-position: center;">
+          <div style="width: 100%; height: 60%; background: rgb(0,11,20); background: linear-gradient(180deg, rgba(0,11,20,0) 0%, rgba(0,11,20,1) 100%); position: relative; bottom: -50%;">
+          <p style="font-family: 'Nationale', system-ui; color: #FFFFFF; font-weight: 600; text-align: left; text-transform: uppercase; float: left; margin-left: 18px; position: relative; top: 60px;">
+            ARBOOX Ads
+          </p>
+            <br>
+            <p style="font-family: 'Nationale', system-ui; color: #FFFFFF; text-align: left; float: left; margin-left: 18px; position: relative; top: 40px; width: 90%;">
+            Increase interactions with next-generation, privacy-friendly story and splash advertisements that capture users' full attention
+          </p>
+            <br>
+            <p style="font-family: 'Nationale', system-ui; color: #FFFFFF; text-align: left; float: left; margin-left: 18px; position: relative; top: 20px; width: 90%;">
+            View&ensp;<i class="material-symbols-rounded" style="position: relative; top: 7px; left: -4px;">chevron_right</i>
+          </p>
+        </div>
         </div>
       </div>
-      <br />
-      <p
-        class="animate-reveal animate-fifth"
-        style="font-family: 'Neurial Grotesk', system-ui; font-size: 32px; margin-top: 100px; width: 80%; max-width: 400px; text-align: left;"
-      >
-        Can't find what you're looking for?
-      </p>
-      <br />
-      <p
-        class="animate-reveal animate-fifth"
-        style="font-family: 'Neurial Grotesk', system-ui; font-size: 20px; width: 80%; max-width: 400px; margin-top:-16px; text-align: left; color: #CCCCCC"
-      >
-        Don't worry, we've got you covered. You can send us an
-        <a href="mailto:arbooxapp@gmail.com" style="color: #CCCCCC;">e-mail</a>
-        and we will reply as soon as we can with all the assets and information
-        you need.
-      </p>
-      <br />
-      <br />
-      <br />
-      <br />
-      <br />
-      <br />
-      <p class="copyright">
-        ©ARBOOX™ 2021
-      </p>
-      <div class="sheet animate-reveal" id="sheet">
-        <div class="bar" id="sheet-bar">
-          <span
-            class="material-icons-round"
-            style="font-size: 28px; margin-top: 20px; float: right; margin-right: 20px; cursor: pointer"
-            >close</span
-          >
-        </div>
-        <br />
-        <br />
-        <br />
-        <br />
-        <h3
-          style="font-family: 'Neurial Grotesk', system-ui; text-align: left; margin-left: 10%; font-weight: 500; text-transform: uppercase;"
-        >
-          Menu
-        </h3>
-        <br />
-        <h1
-          style="font-family: 'Neurial Grotesk', system-ui; text-align: left; margin-left: 10%; font-weight: 500; margin-top: -10px; cursor: pointer"
-          onclick="window.location.href='https://arboox.com/features';"
-          class="h1-hover-effect"
-        >
-          Features
-        </h1>
-        <br />
-        <h1
-          style="font-family: 'Neurial Grotesk', system-ui; text-align: left; margin-left: 10%; font-weight: 500; margin-top: -10px; cursor: pointer"
-          onclick="window.location.href='https://arboox.com/anchors';"
-          class="h1-hover-effect"
-        >
-          Anchors
-        </h1>
-        <br />
-        <h1
-          style="font-family: 'Neurial Grotesk', system-ui; text-align: left; margin-left: 10%; font-weight: 500; margin-top: -10px; cursor: pointer"
-          onclick="window.location.href='https://arboox.com/brands';"
-          class="h1-hover-effect"
-        >
-          Brands
-        </h1>
-        <br />
-        <h1
-          style="font-family: 'Neurial Grotesk', system-ui; text-align: left; margin-left: 10%; font-weight: 500; margin-top: -10px; cursor: pointer"
-          onclick="window.location.href='https://store.arboox.com/';"
-          class="h1-hover-effect"
-        >
-          Store
-        </h1>
-        <br>
-        <br>
-        <div style="float: left; margin-left: 10%; width: 320px;">
-          <a class="h1-hover-effect" style="text-decoration: none; float: left; font-family: 'Neurial Grotesk', system-ui; font-weight: 500;" href="https://about.arboox.com">About</a>
-          &emsp;
-          <a class="h1-hover-effect" style="text-decoration: none; float: left; font-family: 'Neurial Grotesk', system-ui; font-weight: 500; margin-left: 18px;" href="https://arboox.com/studio">Studio</a>
-           <br>
+      <br>
+      <br>
+      <br>
+      <div
+              style="width: 80%; max-width: 400px; height: 1.3px; position: relative; top: 30px; background-color: #F0F0F0;"
+            ></div>
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+      <h1 style="font-family: 'Nationale', system-ui; font-weight: 500; width: 70%;">
+        Download our press assets
+      </h1>
+      <br>
+      <br>
+      <div class="press-card">
+        <img src="https://cdn.glitch.global/a9c4e687-7c99-4065-88c1-02e69edfd394/product-ss.png?v=1654300809094" class="press-card-img">
+        &ensp;
+        <div class="press-card-text">
+          <p style="font-family: 'Nationale', system-ui; text-align: left; font-size: 18px; font-weight: 600;">
+            Product screenshots
+          </p>
           <br>
-          <a class="h1-hover-effect" style="text-decoration: none; float: left; font-family: 'Neurial Grotesk', system-ui; font-weight: 500;" href="https://arboox.com/privacy">Privacy</a>
-            &ensp;
-          <a class="h1-hover-effect" style="text-decoration: none; float: left; font-family: 'Neurial Grotesk', system-ui; font-weight: 500; margin-left: 18px;" href="https://support.arboox.com">Support</a>
-        </div>
-        <br>
-        <br>
-    <br>
-        <div style="margin-top: 24px; float: left; margin-left: 10%;">
-          <a class="h1-hover-effect material-icons-round" href="https://instagram.com/arbooxapp">
-            <svg xmlns="http://www.w3.org/2000/svg" style="width: 18px; height: 18px;">
-  <path d="M8 0C5.829 0 5.556.01 4.703.048 3.85.088 3.269.222 2.76.42a3.917 3.917 0 0 0-1.417.923A3.927 3.927 0 0 0 .42 2.76C.222 3.268.087 3.85.048 4.7.01 5.555 0 5.827 0 8.001c0 2.172.01 2.444.048 3.297.04.852.174 1.433.372 1.942.205.526.478.972.923 1.417.444.445.89.719 1.416.923.51.198 1.09.333 1.942.372C5.555 15.99 5.827 16 8 16s2.444-.01 3.298-.048c.851-.04 1.434-.174 1.943-.372a3.916 3.916 0 0 0 1.416-.923c.445-.445.718-.891.923-1.417.197-.509.332-1.09.372-1.942C15.99 10.445 16 10.173 16 8s-.01-2.445-.048-3.299c-.04-.851-.175-1.433-.372-1.941a3.926 3.926 0 0 0-.923-1.417A3.911 3.911 0 0 0 13.24.42c-.51-.198-1.092-.333-1.943-.372C10.443.01 10.172 0 7.998 0h.003zm-.717 1.442h.718c2.136 0 2.389.007 3.232.046.78.035 1.204.166 1.486.275.373.145.64.319.92.599.28.28.453.546.598.92.11.281.24.705.275 1.485.039.843.047 1.096.047 3.231s-.008 2.389-.047 3.232c-.035.78-.166 1.203-.275 1.485a2.47 2.47 0 0 1-.599.919c-.28.28-.546.453-.92.598-.28.11-.704.24-1.485.276-.843.038-1.096.047-3.232.047s-2.39-.009-3.233-.047c-.78-.036-1.203-.166-1.485-.276a2.478 2.478 0 0 1-.92-.598 2.48 2.48 0 0 1-.6-.92c-.109-.281-.24-.705-.275-1.485-.038-.843-.046-1.096-.046-3.233 0-2.136.008-2.388.046-3.231.036-.78.166-1.204.276-1.486.145-.373.319-.64.599-.92.28-.28.546-.453.92-.598.282-.11.705-.24 1.485-.276.738-.034 1.024-.044 2.515-.045v.002zm4.988 1.328a.96.96 0 1 0 0 1.92.96.96 0 0 0 0-1.92zm-4.27 1.122a4.109 4.109 0 1 0 0 8.217 4.109 4.109 0 0 0 0-8.217zm0 1.441a2.667 2.667 0 1 1 0 5.334 2.667 2.667 0 0 1 0-5.334z"/>
-</svg>
-          </a>
-          &ensp;
-          <a class="h1-hover-effect material-icons-round" href="https://arboox.com/@/arboox">
-            <svg xmlns="http://www.w3.org/2000/svg" style="width: 18px; height: 18px;">
-<path d="M6.5556 8.1144L5.8572 10.008H7.2396L6.5556 8.1144Z"/>
-<path d="M11.7549 8.8704C12.2445 8.8704 12.4893 8.5824 12.4893 8.2152C12.4893 7.8552 12.2517 7.5816 11.7189 7.5816H10.6245V8.8704H11.7549Z"/>
-<path d="M10.6245 10.9944H11.8485C12.3453 10.9944 12.6333 10.7712 12.6333 10.3536C12.6333 9.9288 12.3381 9.684 11.8701 9.684H10.6245V10.9944Z"/>
-<path fill-rule="evenodd" clip-rule="evenodd" d="M2.88 0C1.28942 0 0 1.28942 0 2.88V15.12C0 16.7106 1.28942 18 2.88 18H15.12C16.7106 18 18 16.7106 18 15.12V2.88C18 1.28942 16.7106 0 15.12 0H2.88ZM9.0468 11.88H7.9164L7.5204 10.7928H5.5692L5.166 11.88H4.1148L6.0804 6.696H7.0884L9.0468 11.88ZM13.5405 8.0928C13.5405 8.5032 13.3893 8.9856 12.8781 9.1944C13.4253 9.3816 13.7133 9.8712 13.7133 10.4256C13.7133 11.34 13.0293 11.88 11.9421 11.88H9.5949V6.696H11.7909C12.9357 6.696 13.5405 7.2288 13.5405 8.0928Z"/>
-</svg>
-          </a>
-                    &ensp;
-          <a class="h1-hover-effect material-icons-round" href="https://www.youtube.com/channel/UCUo8n6blz_XvGsMbkD5Mr6Q">
-            <svg xmlns="http://www.w3.org/2000/svg" style="width: 18px; height: 18px;">
-  <path d="M8.051 1.999h.089c.822.003 4.987.033 6.11.335a2.01 2.01 0 0 1 1.415 1.42c.101.38.172.883.22 1.402l.01.104.022.26.008.104c.065.914.073 1.77.074 1.957v.075c-.001.194-.01 1.108-.082 2.06l-.008.105-.009.104c-.05.572-.124 1.14-.235 1.558a2.007 2.007 0 0 1-1.415 1.42c-1.16.312-5.569.334-6.18.335h-.142c-.309 0-1.587-.006-2.927-.052l-.17-.006-.087-.004-.171-.007-.171-.007c-1.11-.049-2.167-.128-2.654-.26a2.007 2.007 0 0 1-1.415-1.419c-.111-.417-.185-.986-.235-1.558L.09 9.82l-.008-.104A31.4 31.4 0 0 1 0 7.68v-.123c.002-.215.01-.958.064-1.778l.007-.103.003-.052.008-.104.022-.26.01-.104c.048-.519.119-1.023.22-1.402a2.007 2.007 0 0 1 1.415-1.42c.487-.13 1.544-.21 2.654-.26l.17-.007.172-.006.086-.003.171-.007A99.788 99.788 0 0 1 7.858 2h.193zM6.4 5.209v4.818l4.157-2.408L6.4 5.209z"/>
-</svg>
+          <p style="font-family: 'Nationale', system-ui; text-align: left; font-size: 16px; color: #CCCCCC; margin-top: -24px;">
+            Ready-to-use mobile screenshots featuring all our products and included guidelines for the best practices.
+          </p>
+          <br>
+          <a href="https://about.arboox.com/arboox-product-screenshots.zip" style="font-family: 'Nationale', system-ui; text-align: left; font-size: 16px; color: #0094FF; margin-top: -24px; font-weight: 600; text-decoration: none; float: left;" download>
+            <i class="material-symbols-rounded" style="position: relative; top: 6px;">download</i>&ensp;Download
           </a>
         </div>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
       </div>
-      <br />
-      <br />
+      <br>
+      <br>
+      <br>
+      <div class="inline-item press-small">
+        <div class="press-card-small">
+          <img src="https://cdn.glitch.com/a9c4e687-7c99-4065-88c1-02e69edfd394%2Ftext-logo-blue.svg?v=1626736430213" style="width: 120px; position: relative; top: 40px;">
+        </div>
+        <br>
+        <p style="font-family: 'Nationale', system-ui; text-align: left; font-size: 18px; font-weight: 600; float: left; margin-top: 4px;">
+            Logo kit
+          </p>
+        <br>
+        <div style="clear: both;"></div>
+          <p style="font-family: 'Nationale', system-ui; text-align: left; font-size: 16px; color: #CCCCCC; margin-top: 0px;">
+            The official ARBOOX™ logo, available in three color schemes. Do not recolour or distort the logo. Detailed guidelines included.
+          </p>
+        <br>
+          <a href="https://about.arboox.com/arboox-logo-kit.zip" style="font-family: 'Nationale', system-ui; text-align: left; font-size: 16px; color: #0094FF; margin-top: -24px; font-weight: 600; text-decoration: none; float: left;" download>
+            <i class="material-symbols-rounded" style="position: relative; top: 6px;">download</i>&ensp;Download
+          </a>
+      </div>
+      &emsp;
+      &emsp;
+      <div class="inline-item press-small p-s-2">
+        <div class="press-card-small">
+          <img src="https://cdn.glitch.global/a9c4e687-7c99-4065-88c1-02e69edfd394/exp-postcards.png?v=1654303923156" style="width: 100%; height: 100%; object-fit: cover;">
+        </div>
+        <br>
+        <p style="font-family: 'Nationale', system-ui; text-align: left; font-size: 18px; font-weight: 600; float: left; margin-top: 4px;">
+            Experience cards
+          </p>
+        <br>
+        <div style="clear: both;"></div>
+          <p style="font-family: 'Nationale', system-ui; text-align: left; font-size: 16px; color: #CCCCCC; margin-top: 0px;">
+            Send the most popular ARBOOX™ experiences to the world using our carefully-created and ready-to-share graphics.
+          </p>
+        <br>
+          <a href="https://about.arboox.com/arboox-experience-cards.zip" style="font-family: 'Nationale', system-ui; text-align: left; font-size: 16px; color: #0094FF; margin-top: -24px; font-weight: 600; text-decoration: none; float: left;" download>
+            <i class="material-symbols-rounded" style="position: relative; top: 6px;">download</i>&ensp;Download
+          </a>
+      </div>
+    </center>
+    <br>
+    <br>
+    <br>
+    <br>
+    <center>
+      <div
+          style="width: 100%; height: auto; overflow: hidden; min-height: 200px"
+          class="footer"
+        >
+          <div style="width: 86%">
+            <p
+              style="
+                font-family: 'Nationale', system-ui;
+                color: #ababab;
+                text-align: left;
+                float: left;
+                width: 100%;
+                max-width: 800px;
+                font-size: 14px;
+                position: relative;
+                top: 18px;
+                display: inline-block;
+              "
+               id="global-footer-desc"
+            >
+              ARBOOX™ is where augmented reality becomes the world's source of inspiration. Made with love in Mexico.
+            </p>
+            <br />
+            <div style="clear: both"></div>
+            <div
+              style="width: 100%; height: 1.3px; position: relative; top: 30px"
+              class="footer-separator"
+            ></div>
+            <br />
+            <br />
+            <br />
+            <div class="footer-column">
+              <p
+                class="footer-column-title"
+                style="
+                  font-family: 'Nationale', system-ui;
+                  color: #cccccc;
+                  text-transform: uppercase;
+                  float: left;
+                  font-weight: 500;
+                "
+                 id="global-footer-col-t-1"
+              >
+                The ARBOOX™ Company
+              </p>
+              <br />
+              <div style="clear: both"></div>
+              <a
+                href="https://about.arboox.com/"
+                style="text-align: left; float: left"
+                class="h1-hover-effect"
+                >About</a
+              >
+              <br />
+              <br />
+              <div style="clear: both"></div>
+              <a
+                href="https://arboox.com/privacy"
+                style="text-align: left; float: left"
+                class="h1-hover-effect"
+                >Privacy</a
+              >
+              <br />
+              <br />
+              <div style="clear: both"></div>
+              <a
+                href="https://store.arboox.com/"
+                style="text-align: left; float: left"
+                class="h1-hover-effect"
+                >Store</a
+              >
+            </div>
+            <div class="footer-column footer-column-2">
+              <p
+                style="
+                  font-family: 'Nationale', system-ui;
+                  color: #cccccc;
+                  text-transform: uppercase;
+                  float: left;
+                  font-weight: 500;
+                "
+                 id="global-footer-col-t-2"
+              >
+                Products&ensp;&&ensp;services
+              </p>
+              <br />
+              <div style="clear: both"></div>
+              <a
+                href="https://arboox.com/"
+                style="text-align: left; float: left"
+                class="h1-hover-effect"
+                >Mobile</a
+              >
+              <br />
+              <br />
+              <div style="clear: both"></div>
+              <a
+                href="https://arboox.com/create"
+                style="text-align: left; float: left"
+                class="h1-hover-effect"
+                >Create</a
+              >
+              <br />
+              <br />
+              <div style="clear: both"></div>
+              <a
+                href="https://arboox.com/advertise"
+                style="text-align: left; float: left"
+                class="h1-hover-effect"
+                >Advertise in ARBOOX</a
+              >
+              <br />
+              <br />
+              <div style="clear: both"></div>
+              <a
+                href="https://arboox.com/referrals"
+                style="text-align: left; float: left"
+                class="h1-hover-effect"
+                >Refer a friend</a
+              >
+            </div>
+            <div class="footer-column footer-column-2">
+              <p
+                style="
+                  font-family: 'Nationale', system-ui;
+                  color: #cccccc;
+                  text-transform: uppercase;
+                  float: left;
+                  font-weight: 500;
+                "
+                 id="global-footer-col-t-3"
+              >
+                Get help
+              </p>
+              <br />
+              <div style="clear: both"></div>
+              <a
+                href="https://support.arboox.com/"
+                style="text-align: left; float: left"
+                class="h1-hover-effect"
+                >Support centre</a
+              >
+              <br />
+              <br />
+              <div style="clear: both"></div>
+              <a
+                href="mailto:arbooxapp@gmail.com?subject=Support"
+                style="text-align: left; float: left"
+                class="h1-hover-effect"
+                >Contact us</a
+              >
+              <br />
+              <br />
+              <div style="clear: both"></div>
+              <a
+                href="https://arboox.com/"
+                style="text-align: left; float: left"
+                class="h1-hover-effect"
+              ></a>
+            </div>
+            <div class="footer-column footer-column-2">
+              <p
+                style="
+                  font-family: 'Nationale', system-ui;
+                  color: #cccccc;
+                  text-transform: uppercase;
+                  float: left;
+                  font-weight: 500;
+                "
+                 id="global-footer-col-t-4"
+              >
+                Other
+              </p>
+              <br />
+              <div style="clear: both"></div>
+              <a
+                href="https://arboox.com/anchors"
+                style="text-align: left; float: left"
+                class="h1-hover-effect"
+                >Anchor experiences</a
+              >
+              <br />
+              <br />
+              <div style="clear: both"></div>
+              <a
+                href="https://about.arboox.com/"
+                style="text-align: left; float: left"
+                class="h1-hover-effect"
+                >Press</a
+              >
+              <br />
+              <br />
+              <div style="clear: both"></div>
+              <a
+                href="mailto:arbooxapp@gmail.com"
+                style="text-align: left; float: left"
+                class="h1-hover-effect"
+                >General inquiries</a
+              >
+            </div>
+            <div class="footer-column footer-column-2">
+              <p
+                style="
+                  font-family: 'Nationale', system-ui;
+                  color: #cccccc;
+                  text-transform: uppercase;
+                  float: left;
+                  font-weight: 500;
+                "
+                 id="global-footer-col-t-5"
+              >
+                Connect
+              </p>
+              <br />
+              <div style="clear: both"></div>
+              <a
+                href="https://instagram.com/arbooxapp"
+                style="text-align: left; float: left"
+                class="h1-hover-effect"
+                >Instagram</a
+              >
+              <br />
+              <br />
+              <div style="clear: both"></div>
+              <a
+                href="https://twitter.com/arbooxapp"
+                style="text-align: left; float: left"
+                class="h1-hover-effect"
+                >Twitter</a
+              >
+            </div>
+            <br />
+            <br />
+            <br />
+            <br />
+            <div style="clear: both"></div>
+            <div style="float: left; display: inline-block; margin-top: 60px">
+              <img
+                src="https://cdn.glitch.com/a9c4e687-7c99-4065-88c1-02e69edfd394%2Fapp-icon.svg?v=1625246866247"
+                style="width: 26px; float: left; border-radius: 8px"
+              />
+              &emsp;
+              <p
+                class="copyright"
+                style="
+                  display: inline-block;
+                  margin-left: 12px;
+                  margin-top: 5px;
+                  font-size: 12px;
+                "
+              >
+               © 2022 ARBOOX™ — #LiveTheExperiences
+              </p>
+            </div>
+          </div>
+          <br />
+          <br />
+          <br />
+          <br />
+          <br />
+          <br />
+          <br />
+          <br />
+          <br />
+          <br />
+          <br />
+          <br />
+          <br />
+          <br />
+        </div>
     </center>
     <script>
-      function menuShow() {
-        div = document.getElementById("sheet");
-        div.style.display = "block";
-      }
-    </script>
-    <script>
       document
-        .querySelector("#sheet-bar")
-        .addEventListener("click", function() {
-          document.querySelector("#sheet").style.display = "none";
+        .querySelector("#s-a-b-c")
+        .addEventListener("click", function () {
+          document.querySelector("#s-a-b").style.display = "none";
+        });
+      
+      document
+        .querySelector("#eta")
+        .addEventListener("click", function () {
+          document.querySelector("#explore-view").style.display = "block";
+        });
+      
+      document
+        .querySelector("#explore-v-d")
+        .addEventListener("click", function () {
+          document.querySelector("#explore-view").style.display = "none";
         });
     </script>
+    <script src="locale.js"></script>
+  </body>
+</html>
